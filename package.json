@@ -1,0 +1,49 @@
+{
+  "name": "fynd-partner-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Fynd Partner documentation — Platform API, Extensions (General, Payment, Logistics), and AI PIM",
+  "keywords": [
+    "fynd",
+    "mcp",
+    "model-context-protocol",
+    "platform-api",
+    "extensions",
+    "ai-pim"
+  ],
+  "author": "devex-tech",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "fynd-partner-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/",
+    "skills/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devex-tech/fynd-partner-mcp.git"
+  },
+  "homepage": "https://github.com/devex-tech/fynd-partner-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/devex-tech/fynd-partner-mcp/issues"
+  }
+}
