@@ -104,6 +104,20 @@ const SKILL_MANIFEST: Record<string, { label: string; topics: Record<string, str
       "roles":         "5 roles with full access control tables",
     },
   },
+  "konnect": {
+    label: "Fynd Konnect",
+    topics: {
+      "overview":       "What Konnect is — 6 channel types, how multi-channel selling works",
+      "auth":           "Token generation, company vs location level auth, environments",
+      "channels":       "Channel configuration — company auth, store auth, onboarding steps",
+      "products":       "Channel mapping, buffer stock, bulk mapping, auto-map",
+      "inventory":      "Inventory sync, reconciliation, snapshots, logs, best practices",
+      "orders":         "12 order statuses, 18 ordering channels, full order lifecycle + APIs",
+      "workflows":      "Forward / RTO / return flows, self-ship vs marketplace logistics",
+      "api-reference":  "All 31 Konnect API operations — catalog, pricing, inventory, orders, returns",
+      "erp-wms":        "ERP/WMS partner channels, cron best practices, webhooks, integration guide",
+    },
+  },
 };
 
 // ---------------------------------------------------------------------------
