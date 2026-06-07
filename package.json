@@ -1,7 +1,7 @@
 {
   "name": "fynd-partner-mcp",
-  "version": "1.0.1",
-  "description": "MCP server for Fynd Partner documentation — Platform API, Extensions (General, Payment, Logistics), AI PIM, and Konnect",
+  "version": "1.0.2",
+  "description": "MCP server for Fynd Partner documentation — Platform API, Extensions, AI PIM, Konnect, and Themes",
   "keywords": [
     "fynd",
     "mcp",
@@ -9,7 +9,8 @@
     "platform-api",
     "extensions",
     "ai-pim",
-    "konnect"
+    "konnect",
+    "themes"
   ],
   "author": "devex-tech",
   "license": "MIT",

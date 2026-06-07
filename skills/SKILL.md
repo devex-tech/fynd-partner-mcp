@@ -6,7 +6,8 @@ description: >-
   Fynd partner or developer building extensions, integrations, or storefronts
   on Fynd, working with Fynd AI PIM, or using Fynd Konnect for multi-channel
   commerce. Covers: Platform REST APIs, General/Payment/Logistics Extensions,
-  AI PIM product data management, and Konnect multi-channel integration.
+  AI PIM product data management, Konnect multi-channel integration, and
+  React-based Theme development.
 ---
 
 # Fynd Partner Skill
@@ -22,6 +23,7 @@ description: >-
 | Logistics Extension | `extensions/logistics/SKILL.md` | DP schemes, accounts, order journey, status sync |
 | AI PIM | `ai-pim/SKILL.md` | Product data management, SKU enrichment, taxonomy, connectors, rule engine, marketplace publishing |
 | Konnect | `konnect/SKILL.md` | Multi-channel selling, marketplace integration, ERP/WMS sync, orders, inventory, channel mapping |
+| Themes | `themes/SKILL.md` | Building, customizing, submitting React-based Fynd Commerce themes |
 
 ## Routing
 
@@ -32,5 +34,6 @@ description: >-
 - **Logistics extension** specifically → load `extensions/logistics/SKILL.md`
 - **AI PIM** (product catalog, SKU enrichment, inbound/outbound connectors, rule engine, transformations, marketplace publishing, AI PIM API) → load `ai-pim/SKILL.md`
 - **Konnect** (multi-channel selling, connecting Amazon/AJIO/Flipkart, ERP/WMS integration, inventory sync, order management, channel mapping, Konnect API) → load `konnect/SKILL.md`
+- **Themes** (building/customizing themes, FDK-CLI, React, ServerFetch, SSR, sections, blocks, FPI client, submission, marketplace) → load `themes/SKILL.md`
 
 For topics not yet covered by a sub-skill, answer from general knowledge and note the gap.

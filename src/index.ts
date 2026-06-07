@@ -118,6 +118,19 @@ const SKILL_MANIFEST: Record<string, { label: string; topics: Record<string, str
       "erp-wms":        "ERP/WMS partner channels, cron best practices, webhooks, integration guide",
     },
   },
+  "themes": {
+    label: "Fynd Commerce Themes",
+    topics: {
+      "overview":        "What themes are, revenue streams (customization, bespoke, marketplace), tools",
+      "setup":           "FDK-CLI install, login, create boilerplate, serve locally, sync, package",
+      "structure":       "Directory layout, pages, sections, blocks, canvas, config files, index.jsx",
+      "development":     "ServerFetch (SSR), AuthGuard, FPI client, useGlobalStore, color palette CSS variables",
+      "data-management": "fdk-store, useFPI, useGlobalStore, FPI mutations, GlobalProvider, resolvers, host components",
+      "advanced":        "Tailwind CSS, headless themes, i18n/locale, code splitting, theme sync, Vue→React migration",
+      "submission":      "7-step submission, packaging, theme details, review process, rejection reasons checklist",
+      "best-practices":  "Fynd, React, JS, and general best practices — SSR safety, performance, accessibility",
+    },
+  },
 };
 
 // ---------------------------------------------------------------------------
